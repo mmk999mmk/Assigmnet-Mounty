@@ -1,0 +1,16 @@
+POST http://localhost:3000/allUsers
+Content-Type: application/json
+
+{"name":"Manoj","mobile":"75XXXXXX","email":"mk@gmail.com","street":"opp high school","locality":"kkk","city":"voolapalli","state":"AP","pincode":"533343","coordinateType":"real","coordinate":17.03876,"createdAt":"2021-05-29 13:11:53"}
+###
+GET http://localhost:3000/allUsers
+###
+PUT http://localhost:3000/allUsers
+Content-Type: application/json
+
+{"name":"Murali","mobile":"75XXXX","email":"murali@gmail.com"}
+###
+DELETE http://localhost:3000/allUsers
+Content-Type: application/json
+
+{"mobile":"75XXX"}
